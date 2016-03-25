@@ -1,0 +1,390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"img",
+				"imgAr1"
+			],
+			[
+				"imgAr",
+				"imgAr1"
+			],
+			[
+				"im",
+				"imgAr1"
+			],
+			[
+				"n",
+				"numbers"
+			],
+			[
+				"fi",
+				"file_name"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"for",
+				"formatter"
+			],
+			[
+				"fr",
+				"formatter"
+			],
+			[
+				"ty",
+				"try_s"
+			],
+			[
+				"try",
+				"try_r"
+			],
+			[
+				"si",
+				"size_m2_c"
+			],
+			[
+				"siz",
+				"size_m1_c"
+			],
+			[
+				"s",
+				"size_m1_c"
+			],
+			[
+				"size",
+				"size_m1_r"
+			],
+			[
+				"printf",
+				"printfn"
+			],
+			[
+				"print",
+				"printfn"
+			],
+			[
+				"p",
+				"printfn"
+			],
+			[
+				"cou",
+				"counter"
+			],
+			[
+				"num",
+				"num2"
+			],
+			[
+				"prev",
+				"prev_num1"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"run",
+				"runName"
+			],
+			[
+				"ru",
+				"runName"
+			],
+			[
+				"cell",
+				"cellVal"
+			],
+			[
+				"run_nam",
+				"run_name_ent"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"ana",
+				"analogWrite"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"k",
+				"ki"
+			],
+			[
+				"err",
+				"error_prev"
+			],
+			[
+				"error",
+				"error_calculate"
+			],
+			[
+				"read",
+				"readSen"
+			],
+			[
+				"lm",
+				"lmval"
+			],
+			[
+				"LCD",
+				"LCDWriteInt"
+			],
+			[
+				"PO",
+				"PORTC"
+			],
+			[
+				"_",
+				"_delay_ms"
+			],
+			[
+				"adc",
+				"adc_init"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "IP_basics.py",
+			"settings":
+			{
+				"buffer_size": 1452,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/dhruv-shah/git/elec-club-iitb.github.io/_posts/2016-03-24-meanshift-algorithm-for-image-processing.md",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Image Processing/IP on Python/IP.sublime-project",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/triangleStruct.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Image Processing/blog_meanshift.md",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Image Processing/blog_meanshift.html",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Python/Arbit Scripts/input.py",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Python/Arbit Scripts/files.py",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/matrix_mult.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/2dFn.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/Largest Prime.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Python/Arbit Scripts/read_this.txt",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/Prime List.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/Common Digits.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/RevCIN_recurse.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/CC.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/Second Largest.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Python/Arbit Scripts/strings.py",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/PHP Workshop/phpSession-master/login.php",
+		"/var/www/html/cookies.php",
+		"/home/dhruv-shah/Desktop/test.php",
+		"/var/www/html/test2.php",
+		"/home/dhruv-shah/Desktop/untitled.cpp",
+		"/home/dhruv-shah/Desktop/triangle.cpp",
+		"/home/dhruv-shah/Desktop/queries.cpp",
+		"/home/dhruv-shah/simplecpp/a.cpp",
+		"/home/dhruv-shah/Desktop/a.cpp",
+		"/home/dhruv-shah/Desktop/abgf.cpp",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Sem 2/CS101/Arbit Practice/recursions.cpp",
+		"/home/dhruv-shah/Desktop/CodePen - BB-8 entirely in HTML _ CSS.html",
+		"/var/www/html/index.php",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/AVR/Line Follower 2016/adc_lcd.c",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/AVR/lcdlibv20/lcd.c",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/AVR/lcdlibv20/trial.c",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Line Follower 2016/lf.c",
+		"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Line Follower 2016/adc_lcd.c",
+		"/home/dhruv-shah/Downloads/GaussElim.cpp"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"index.html",
+			"png",
+			"swap",
+			"fetc",
+			"resultsmodel",
+			"uploadfile",
+			"table",
+			"runs",
+			"scope.runs",
+			"table",
+			"scope.runs",
+			"busy",
+			"run_name_ent",
+			"upload.run",
+			"upload.lo",
+			"upload/log",
+			"button",
+			"upload.runName",
+			"fetchLog",
+			"fetchFromURL",
+			"table",
+			"fetc",
+			"import",
+			"addRes",
+			"fileevent",
+			"runname",
+			"logSrc",
+			"isFile",
+			"button",
+			"400"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "IP_basics.py",
+					"settings":
+					{
+						"buffer_size": 1452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 744.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/dhruv-shah/Desktop/IIT Bombay 2015-19/Cool Stuff/Image Processing/IP on Python/IP.sublime-project"
+			]
+		],
+		"width": 1366.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
