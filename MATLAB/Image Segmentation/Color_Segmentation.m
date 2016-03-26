@@ -4,10 +4,10 @@
 
 % Copyright 2014 The MathWorks, Inc.
 
-
+clear all
 %% Read in image
-I = imread('Toys_Candy.jpg');
-imshow(I);
+I = imread('cars_2.jpg');
+% imshow(I);
 
 %% Solution:  Thresholding the image on each color pane
 %Im=double(img)/255;
@@ -17,14 +17,14 @@ rmat=Im(:,:,1);
 gmat=Im(:,:,2);
 bmat=Im(:,:,3);
 
-subplot(2,2,1), imshow(rmat);
-title('Red Plane');
-subplot(2,2,2), imshow(gmat);
-title('Green Plane');
-subplot(2,2,3), imshow(bmat);
-title('Blue Plane');
-subplot(2,2,4), imshow(I);
-title('Original Image');
+% subplot(2,2,1), imshow(rmat);
+% title('Red Plane');
+% subplot(2,2,2), imshow(gmat);
+% title('Green Plane');
+% subplot(2,2,3), imshow(bmat);
+% title('Blue Plane');
+% subplot(2,2,4), imshow(I);
+% title('Original Image');
 
 %%
 levelr = graythresh(rmat)
@@ -38,31 +38,31 @@ i3=im2bw(bmat,levelb);
 Isum = (i1&i2&i3);
 Isum1 = (i1|i2|i3);
 % Plot the data
-subplot(3,2,1), imshow(i1);
-title('Red Plane');
-subplot(3,2,2), imshow(i2);
-title('Green Plane');
-subplot(3,2,3), imshow(i3);
-title('Blue Plane');
-subplot(3,2,4), imshow(Isum);
-title('Sum of all the planes');
+% subplot(3,2,1), imshow(i1);
+% title('Red Plane');
+% subplot(3,2,2), imshow(i2);
+% title('Green Plane');
+% subplot(3,2,3), imshow(i3);
+% title('Blue Plane');
+% subplot(3,2,4), imshow(Isum);
+% title('Sum of all the planes');
 
-subplot(3,2,5), imshow(Isum1);
-title('Sum of all the planes - MOD');
+% subplot(3,2,5), imshow(Isum1);
+% title('Sum of all the planes - MOD');
 %% Complement Image and Fill in holes
 Icomp = imcomplement(Isum);
 Ifilled = imfill(Icomp,'holes'); % check doc for function; fills holes
-figure, imshow(Ifilled);
+% figure, imshow(Ifilled);
 %%
-se = strel('disk', 25);
+se = strel('disk', 15);
 Iopenned = imopen(Ifilled,se);
-figure,imshowpair(Iopenned, I, 'blend');
+% figure,imshowpair(Iopenned, I, 'blend');
 % imshow(Iopenned);
 %% Extract featurescentroid
 
 Iregion = regionprops(Iopenned, 'centroid');
-[labeled,numObjects] = bwlabel(Iopenned,4);
-stats = regionprops(labeled,'Eccentricity','Area','BoundingBox');
+[labeled,numObjects] = bwlabel(Iopenned,4); %only used to identify number; labeled wont be reqd as regionprops can use BW as well
+stats = regionprops(Iopenned,'Eccentricity','Area','BoundingBox');
 areas = [stats.Area];
 eccentricities = [stats.Eccentricity];
 
@@ -77,9 +77,9 @@ for idx = 1 : length(idxOfSkittles)
         set(h,'EdgeColor',[.75 0 0]);
         hold on;
 end
-if idx > 10
+
 title(['There are ', num2str(numObjects), ' objects in the image!']);
-end
+
 hold off;
 
 
