@@ -30,6 +30,8 @@ title('Original Image');
 levelr = graythresh(rmat)
 levelg = graythresh(gmat)
 levelb = graythresh(bmat)
+%instead of manual thresholding, trying Otsu's
+%for manual, there's always im2bw(image, level)
 i1=im2bw(rmat,levelr);
 i2=im2bw(gmat,levelg);
 i3=im2bw(bmat,levelb);
@@ -54,10 +56,9 @@ figure, imshow(Ifilled);
 %%
 se = strel('disk', 25);
 Iopenned = imopen(Ifilled,se);
-figure,imshowpair(Iopenned, I);
-%imshow(Iopenned);
-
-%% Extract features
+figure,imshowpair(Iopenned, I, 'blend');
+% imshow(Iopenned);
+%% Extract featurescentroid
 
 Iregion = regionprops(Iopenned, 'centroid');
 [labeled,numObjects] = bwlabel(Iopenned,4);

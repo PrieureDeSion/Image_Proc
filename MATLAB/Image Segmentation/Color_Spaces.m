@@ -6,10 +6,7 @@
 %% Read in image
 I = imread('Toys_Candy.jpg');
 imshow(I);
-%% RGB Color space
-rmat=I(:,:,1);
-gmat=I(:,:,2);
-bmat=I(:,:,3);
+%% RGB Color spa
 
 figure;
 subplot(2,2,1), imshow(rmat);
